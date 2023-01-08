@@ -9,8 +9,25 @@
     <link rel="stylesheet" href="./styles/main.css"/>
 </head>
 <body>
-    <header>
-        <h1>Hello World</h1>
+    <header class="header">
+        <!?-- BEM -->
+        <div class="header__nav">
+            <img src="./images/logo.svg" alt="Logo for a company named Netbook " />
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container-2">
+            <input type="search">
+            <a href="/login">Log in</a>
+        </div>
     </header>
     <main>
         <section class="hero">
