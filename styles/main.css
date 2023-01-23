@@ -292,7 +292,7 @@
     grid-template-columns: 21.25rem 21.25rem 1fr;
     gap: 1.5rem;
     align-items: center;
-    margin-bottom: 11.25rem;
+    margin-bottom: 6rem;
   }
 
   .achievements .card{
@@ -308,17 +308,6 @@
     padding: 3rem 1.125rem 2.5rem 2.5rem;
     transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
   }
-
-  /* .achievements .card a:after{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
-    content: "";
-    background-image: url("/images/icon-arrow.svg");
-    width: .625rem;
-    height: .625rem;
-  } */
 
   .achievements .card:hover{
     box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.24);
@@ -367,6 +356,8 @@
 
   .community {
     background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    padding: 5rem 0;
+    margin-bottom: 7.5rem;
   }
 
   .community__items {
@@ -421,6 +412,84 @@
   .community__card-content{
 
   } */
+
+  .team__content{
+    width: 28.125rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .team__tabs{
+    background-color: var(--color-primary-10);
+    width: 28.125rem;
+    margin: 2.5rem auto;
+    display: flex;
+    border-radius: 1rem;
+    padding: 0.5rem;
+  }
+
+  .team__tab{
+    height: 3.5rem;
+    display: inline-flex;
+    padding: 0 2rem;
+    align-items: center;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  .team__tab:hover{
+    color: var(--color-primary);
+  }
+
+  .team__tab--active{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  .team__members{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  .team__member-card{
+    text-align: center;
+    border: solid 1px #F3F3F3;
+    border-radius: 1rem;
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    padding: 2rem;
+  }
+
+  .team__member-card:hover{
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.24);
+    transform: translate(-4px, -4px);
+  }
+
+  .team__member-picture{
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .team__member-avatar{
+    display: inline-block;
+    position: relative;
+  }
+
+  .team__member-name{
+    font-size: 1.5rem;
+  }
+
+  .team__member-username{
+
+  }
+
+
 
 
 
