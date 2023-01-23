@@ -485,8 +485,69 @@
     font-size: 1.5rem;
   }
 
-  .team__member-username{
+  /* .team__member-username{
 
+  } */
+
+  .app{
+    background-color: #E5F0FD;
+    overflow: hidden;
+  }
+
+  .app .container{
+    display: grid;
+    grid-template-columns: 21.875rem 1fr;
+    height: 35rem;
+    align-items: center;
+  }
+
+  .app__screenshot{
+    position: relative;
+    align-self: end;
+    width: 341px;
+    margin-inline-start: auto;
+  }
+
+  .app__screenshot .app__screenshot-picture{
+    filter: drop-shadow(0px 80px 250px rgba(0, 0, 0, 0.2));
+    position: relative;
+    z-index: 1;
+  }
+
+  .app__screenshot-circle-1, .app__screenshot-circle-2{
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    left: -4.5rem;
+    position: absolute;
+  }
+
+  .app__screenshot-shine{
+    position: absolute;
+    right: -57px;
+    top: -54px;
+  }
+
+  .app__screenshot-circle-1{
+    background-color: #FC6A65;
+    bottom: 72px;
+  }
+
+  .app__screenshot-circle-2{
+    background-color: #489D92;
+    bottom: -72px;
+  }
+
+  .app__buttons{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .app__buttons img{
+    width: 148px;
+    height: 48px;
+    box-shadow: 0px 0px 22px rgba(178, 188, 208, 0.21);
   }
 
 
